@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -15,26 +16,50 @@
             <a href="contato.html">Contato</a>
         </li>
     </ul>
-    <h1>Meu Contato</h1>
+    <h1 class="center">Entre em contato comigo</h1>
     
-    <form>
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome">
-        <br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email"> 
-        <br>
-        <label for="Assunto">Assunto:</label><br>
-        <textarea name="assunto" id="assunto" cols="50" rows="10"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
-    <h2>Endereço:</h2>
-    <p>Rua Conselheiro Furtado 1003</p>
-    <p>São Paulo-SP</p>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1815988599274!2d-46.634719585674226!3d-23.561920467496606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59a0b29af03b%3A0x54331426223f0e18!2sR.%20Conselheiro%20Furtado%2C%201003%20-%20Liberdade%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001511-001!5e0!3m2!1spt-BR!2sbr!4v1629253073327!5m2!1spt-BR!2sbr" 
-    width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<div class="container mb-50">
+        <div>
+            
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome">
+                <br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email"> 
+                <br>
+                <label for="Assunto">Assunto:</label><br>
+                <textarea name="assunto" id="assunto" cols="50" rows="10"></textarea>
+                <br>
+                <br>
+                <button>Enviar</button>
+            </form>
+        </div>
+        <div class="ml-50">
+            <h2>Endereço:</h2>
+            <p>Rua Conselheiro Furtado 1003</p>
+            <p>São Paulo-SP</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1815988599274!2d-46.634719585674226!3d-23.561920467496606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59a0b29af03b%3A0x54331426223f0e18!2sR.%20Conselheiro%20Furtado%2C%201003%20-%20Liberdade%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001511-001!5e0!3m2!1spt-BR!2sbr!4v1629253073327!5m2!1spt-BR!2sbr" 
+            width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+</div>
+<hr>
+<footer>
+    <div class="container">
+        <a href="https://www.facebook.com/" target="_blank">
+            <img class="tm-social p-30" src="assets/img/facebook (1).png" alt="Logo do Facebook">
+        </a>
+        <a href="https://www.instagram.com/enzokina/"target="_blank">
+            <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Instagram">
+        </a>
+        <a href="https://www.linkedin.com/in/enzo-kina/"target="_blank">
+            <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+        </a>
+            
+    </div>
+    <p class="center">
+    Todos os direitos reservador: Enzo Kina &copy;
+    </p>
+</footer>
 </body>
 </html>
